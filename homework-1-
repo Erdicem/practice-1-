@@ -1,0 +1,21 @@
+"""
+Simple Daily Interest
+
+interest = p * r/365 
+
+P= Principal
+r= annual interest rate 
+result= interest per day 
+"""
+interest= 12
+
+investment=1000
+
+interest_calculator_perday=investment*interest/365
+
+week_1= 7*interest_calculator_perday
+
+Total=week_1+investment
+
+print("hafta başına {}$ bitcoin aldığımızda günde ortalama {} kazançla," '\n'
+    "bir hafta sonunda totalde {} kazandık." .format(investment,interest,Total))
