@@ -1,3 +1,0 @@
-file_name=str(input("please enter your file name : "))
-uzantı=".py"
-print("Your File Name : {}{}".format(file_name,uzantı))
