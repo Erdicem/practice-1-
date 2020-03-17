@@ -1,0 +1,9 @@
+Days={"Monday":1,"Tuesday":2," Wednesday":3," Thursday":4,"Friday":5,"Saturday":6,"Sunday":7}
+print(Days)
+print("Please, select two different days ")
+first_day=str(input("Please, select first day:"))
+second_day=str(input("Please, select second day:"))
+
+del Days[first_day]
+del Days[second_day]
+print(Days)
