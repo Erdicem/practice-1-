@@ -19,3 +19,11 @@ Total=week_1+investment
 
 print("hafta başına {}$ bitcoin aldığımızda günde ortalama {} kazançla," '\n'
     "bir hafta sonunda totalde {} kazandık." .format(investment,interest,Total))
+
+
+#######
+
+
+file_name=str(input("please enter your file name : "))
+uzantı=".py"
+print("Your File Name : {}{}".format(file_name,uzantı))
