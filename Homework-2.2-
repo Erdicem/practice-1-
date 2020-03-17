@@ -1,0 +1,30 @@
+listem=[{"Ocak":"31",
+        "Şubat":"28","Mart":"31","Nisan":"30","Mayis":"31","Haziran":"30","Temmuz":"31","Ağustos":"30","Eylül":"31",
+         "Ekim":"30","Kasım":"31","Aralık":"30"}]
+print(type(listem))
+print(listem)
+
+#######
+
+Liste=[]
+gunler=["31","28","31","30","31","30","31","30","31","30","31","30"]
+aylar=["ocak","şubat","mart","nisan","mayıs","haziran","temmuz","agustos","eylül","ekim","kasım","aralık"]
+
+Liste.append(aylar)
+Liste.append(gunler)
+print(Liste)
+
+##### 
+
+import numpy as np
+Yaz=[]
+Kıs=["aralık","ocak","şubat"]
+İlkbahar=["mart","nisan","mayıs"]
+Sonbahar=["eylül","ekim","kasım"]
+Yaz.append(Liste[0][5:8])
+Yaz.append(Liste[1][5:8])
+print(Yaz)
+total=np.array(Yaz[1][0:3])
+print(total)
+print(int(total[0])+int(total[1])+int(total[2]))
+
